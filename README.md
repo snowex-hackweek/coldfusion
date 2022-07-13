@@ -1,6 +1,6 @@
-# Sample Project
+# SnowEx Hackweek coldfusion
 
-This is as an example on how teams can structure their project repositories. Thanks to Lindsey Heagey and Joachim Meyer for the template!
+Thanks to Lindsey Heagey and Joachim Meyer for the template!
 
 ## Files
 
@@ -14,7 +14,14 @@ This is as an example on how teams can structure their project repositories. Tha
 ## Folders
 
 ### `contributors`
-Each team member has it's own folder under contributors, where they can work on their contribution. Having a dedicated folder for each person helps to prevent conflicts when merging with the main branch.
+- Alicia Pouw [github profile](https://github.com/aliciapouw21)
+- Curtis Beutler [github profile](https://github.com/CBeutler)
+- Kori Mooney[github profile](https://github.com/korimooney)
+- Megan Verfaillie[github profile](https://github.com/Megan-Verf)
+- Seth Vanderwilt[github profile](https://github.com/sethv)
+- Tate Meehan[github profile](https://github.com/tatemeehan)
+- Thomas Van Der Weide[github profile](https://github.com/tvanderweide)
+- Peter Marshall[github profile](https://github.com/pmarshall24)
 
 ### `notebooks`
 Notebooks that are considered delivered results for the project should go in here.
@@ -25,6 +32,7 @@ Helper utilities that are shared with the team
 # Recommended content for your README.md file:
 
 ## Project Summary
+This project merges GPR and LiDAR datasets based in the Grand Mesa study site area. 
 
 ### Project Title
 
