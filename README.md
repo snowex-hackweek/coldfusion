@@ -1,44 +1,13 @@
 # coldfusion
-
-This is as an example on how teams can structure their project repositories. Thanks to Lindsey Heagey and Joachim Meyer for the template!
-
-## Files
-
-* `.gitignore`
-<br> Globally ignored files by `git` for the project.
-* `environment.yml`
-<br> `conda` environment description needed to run this project.
-* `README.md`
-<br> Description of the project (see suggested headings below)
-
-## Folders
-
-### `contributors`
-Each team member has their own folder under contributors, where they can work on their contribution to the project. Having a dedicated folder for each person prevents conflicts when merging with the main branch.
-- aliciapouw21
-- curtisbeutler
-- megan-verf
-- pmarshall24
-- samuelmarcus
-- sethv
-- tatemeehan
-- tvdw
-- zdebug-folder
-
-### `notebooks`
-Notebooks that are considered delivered results for the project should go in here.
-- project_results_1.ipynb
-
-### `scripts`
-Helper utilities that are shared with the team
+Thanks to Lindsey Heagey and Joachim Meyer for the README template!
 
 ## Project Summary
 
-### Coldfusion
+### `Coldfusion`
 
-Merging of GPR and LiDAR datasets.
+A team effort to merge of GPR and LiDAR datasets during SnowEx hackweek 2022.
 
-### Collaborators on this project
+### `Collaborators on this project`
 
 - Curtis Beutler [CBeutler](https://github.com/CBeutler)
 - Peter Marshall [pmarshall24](https://github.com/pmarshall24)
@@ -49,22 +18,18 @@ Merging of GPR and LiDAR datasets.
 - Megan Verfaillie [Megan-Verf](https://github.com/Megan-Verf)
 - Seth Vanderwilt [sethv](https://github.com/sethv)
 
-### The problem
-
-
-### The solution
+### `Game Plan`
 1. Find LiDAR area with GPR validation data in western and central Grand Mesa study area and create code to query data from database. 
 Validate using:
     - Snow pits (Snow depths & Density)
     - Magnaprobe (snow depth)
     - SNOTEL (snow depth) [Mesa Lakes (622)](https://wcc.sc.egov.usda.gov/nwcc/site?sitenum=622&state=co)
 2. Ensure GPR & LiDAR are on like coordinate systems and co-locate GPR points to LiDAR points
-
 3. Calculate snow density using dielectric permittivity and wave speed using LiDAR snow depths.
-
 4. Validate by co-locating in-situ snow density and snow depth
 
-5. Machine Learning
+### `Next Steps`
+Application of Machine Learning to begin looking at other study sites
 
 ### Application Example
 
@@ -89,4 +54,24 @@ Building from what you learn at this hackweek, what new approaches would you lik
 ### Background reading
 
 Optional: links to manuscripts or technical documents for more in-depth analysis.
+
+## Files
+
+* `.gitignore`
+<br> Globally ignored files by `git` for the project.
+* `environment.yml`
+<br> `conda` environment description needed to run this project.
+* `README.md`
+<br> Description of the project (see suggested headings below)
+
+## Folders
+
+### `contributors`
+Each team member has their own folder under contributors, where they can work on their contribution to the project. Having a dedicated folder for each person prevents conflicts when merging with the main branch.
+
+### `notebooks`
+Notebooks that are considered delivered results for the project should go in here.
+
+### `scripts`
+Helper utilities that are shared with the team
 
