@@ -26,13 +26,20 @@ Helper utilities that are shared with the team
 
 ## Project Summary
 
-### Project Title
+### Coldfusion
 
-Brief title describing the proposed work.
+Merging of GPR and LiDAR datasets.
 
 ### Collaborators on this project
 
-List all participants on the project. Choose one team member to act as project lead, and identify one hackweek organizer as the data science lead.
+Curtis Beutler
+Peter Marshall
+Tate Meehan
+Kori Mooney
+Alicia Pouw
+Thomas Van Der Weide
+Megan Verfaillie
+Seth Vanderwilt
 
 ### The problem
 
