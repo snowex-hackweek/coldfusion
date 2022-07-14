@@ -1,4 +1,4 @@
-# Sample Project
+# coldfusion
 
 This is as an example on how teams can structure their project repositories. Thanks to Lindsey Heagey and Joachim Meyer for the template!
 
@@ -14,15 +14,23 @@ This is as an example on how teams can structure their project repositories. Tha
 ## Folders
 
 ### `contributors`
-Each team member has it's own folder under contributors, where they can work on their contribution. Having a dedicated folder for each person helps to prevent conflicts when merging with the main branch.
+Each team member has their own folder under contributors, where they can work on their contribution to the project. Having a dedicated folder for each person prevents conflicts when merging with the main branch.
+- aliciapouw21
+- curtisbeutler
+- megan-verf
+- pmarshall24
+- samuelmarcus
+- sethv
+- tatemeehan
+- tvdw
+- zdebug-folder
 
 ### `notebooks`
 Notebooks that are considered delivered results for the project should go in here.
+- project_results_1.ipynb
 
 ### `scripts`
 Helper utilities that are shared with the team
-
-# Recommended content for your README.md file:
 
 ## Project Summary
 
@@ -32,18 +40,31 @@ Merging of GPR and LiDAR datasets.
 
 ### Collaborators on this project
 
-Curtis Beutler
-Peter Marshall
-Tate Meehan
-Kori Mooney
-Alicia Pouw
-Thomas Van Der Weide
-Megan Verfaillie
-Seth Vanderwilt
+- Curtis Beutler [CBeutler](https://github.com/CBeutler)
+- Peter Marshall [pmarshall24](https://github.com/pmarshall24)
+- Tate Meehan [tatemeehan](https://github.com/tatemeehan)
+- Kori Mooney [korimooney](https://github.com/korimooney)
+- Alicia Pouw [aliciapouw21](https://github.com/aliciapouw21)
+- Thomas Van Der Weide [tvanderweide](https://github.com/tvanderweide)
+- Megan Verfaillie [Megan-Verf](https://github.com/Megan-Verf)
+- Seth Vanderwilt [sethv](https://github.com/sethv)
 
 ### The problem
 
-What problem are you going to explore? Provide a few sentences. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context.
+
+### The solution
+1. Find LiDAR area with GPR validation data in western and central Grand Mesa study area and create code to query data from database. 
+Validate using:
+    - Snow pits (Snow depths & Density)
+    - Magnaprobe (snow depth)
+    - SNOTEL (snow depth) [Mesa Lakes (622)](https://wcc.sc.egov.usda.gov/nwcc/site?sitenum=622&state=co)
+2. Ensure GPR & LiDAR are on like coordinate systems and co-locate GPR points to LiDAR points
+
+3. Calculate snow density using dielectric permittivity and wave speed using LiDAR snow depths.
+
+4. Validate by co-locating in-situ snow density and snow depth
+
+5. Machine Learning
 
 ### Application Example
 
