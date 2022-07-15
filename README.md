@@ -1,6 +1,76 @@
-# Sample Project
+# coldfusion
+Thanks to Lindsey Heagey and Joachim Meyer for the README template!
 
-This is as an example on how teams can structure their project repositories. Thanks to Lindsey Heagey and Joachim Meyer for the template!
+## Project Summary
+
+### `Coldfusion`
+
+A team effort to merge of GPR and LiDAR datasets during SnowEx hackweek 2022.
+
+$\rho = \frac{z}{SWE}$$
+
+![Overlapping Pit Locations](jovyan@jupyter-korimooney:~/coldfusion/contributors/korimooney/PitOverlap.jpg)
+
+### `Collaborators on this project`
+
+- Curtis Beutler [CBeutler](https://github.com/CBeutler)
+- Peter Marshall [pmarshall24](https://github.com/pmarshall24)
+- Tate Meehan [tatemeehan](https://github.com/tatemeehan)
+- Kori Mooney [korimooney](https://github.com/korimooney)
+- Alicia Pouw [aliciapouw21](https://github.com/aliciapouw21)
+- Thomas Van Der Weide [tvanderweide](https://github.com/tvanderweide)
+- Megan Verfaillie [Megan-Verf](https://github.com/Megan-Verf)
+- Seth Vanderwilt [sethv](https://github.com/sethv)
+
+### `Database information`
+SiteData
+: snowpit information and metadata
+
+PointData
+: GPR data, snow probes [('depth',),('swe'),('two_way_travel',)]
+
+ImageData
+: LiDAR ASO data
+
+LayerData 
+: snow pit data (density, depth)
+
+
+
+### `Tasks`
+- [x] Find LiDAR area with GPR validation data in western and central Grand Mesa study area and create code to query data from database. 
+Validate using:
+    - Snow pits (Snow depths & Density)
+    - Magnaprobe (snow depth)
+    - SNOTEL (snow depth) [Mesa Lakes (622)](https://wcc.sc.egov.usda.gov/nwcc/site?sitenum=622&state=co)
+- [ ] Ensure GPR & LiDAR are on like coordinate systems and co-locate GPR points to LiDAR points
+- [ ] Calculate snow density using dielectric permittivity and wave speed using LiDAR snow depths.
+- [ ] Validate by co-locating in-situ snow density and snow depth
+- [ ] Machine Learning
+- [ ] Look at other sites
+
+### `Next Steps`
+Application of Machine Learning to begin looking at other study sites
+
+### `Application Example`
+
+List one specific application of this work.
+
+### `Sample data`
+
+If you already have some data to explore, briefly describe it here (size, format, how to access).
+
+### `Existing methods`
+
+How would you or others traditionally try to address this problem?
+
+### `Proposed methods/tools`
+
+Building from what you learn at this hackweek, what new approaches would you like to try to implement?
+
+### `Background reading`
+
+Optional: links to manuscripts or technical documents for more in-depth analysis.
 
 ## Files
 
@@ -14,7 +84,7 @@ This is as an example on how teams can structure their project repositories. Tha
 ## Folders
 
 ### `contributors`
-Each team member has it's own folder under contributors, where they can work on their contribution. Having a dedicated folder for each person helps to prevent conflicts when merging with the main branch.
+Each team member has their own folder under contributors, where they can work on their contribution to the project. Having a dedicated folder for each person prevents conflicts when merging with the main branch.
 
 ### `notebooks`
 Notebooks that are considered delivered results for the project should go in here.
@@ -22,43 +92,17 @@ Notebooks that are considered delivered results for the project should go in her
 ### `scripts`
 Helper utilities that are shared with the team
 
-# Recommended content for your README.md file:
+# Table
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
-## Project Summary
-
-### Project Title
-
-Brief title describing the proposed work.
-
-### Collaborators on this project
-
-List all participants on the project. Choose one team member to act as project lead, and identify one hackweek organizer as the data science lead.
-
-### The problem
-
-What problem are you going to explore? Provide a few sentences. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context.
-
-### Application Example
-
-List one specific application of this work.
-
-### Sample data
-
-If you already have some data to explore, briefly describe it here (size, format, how to access).
-
-### Specific Questions
-
-List the specific tasks you want to accomplish or research questions you want to answer.
-
-### Existing methods
-
-How would you or others traditionally try to address this problem?
-
-### Proposed methods/tools
-
-Building from what you learn at this hackweek, what new approaches would you like to try to implement?
-
-### Background reading
-
-Optional: links to manuscripts or technical documents for more in-depth analysis.
-
+#Fenced Code Block
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
