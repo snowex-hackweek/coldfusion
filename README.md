@@ -1,11 +1,17 @@
 # coldfusion
 Thanks to Lindsey Heagey and Joachim Meyer for the README template!
+~~The world is flat.~~
 
-## Project Summary
+## Project Summary :joy:
 
 ### `Coldfusion`
 
 A team effort to merge of GPR and LiDAR datasets during SnowEx hackweek 2022.
+
+![Overlapping Pit Locations](coldfusion/contributors/korimooney/PitOverlap.jpg)
+
+
+![Overlapping Pit Locations](PitOverlap.jpg)
 
 ### `Collaborators on this project`
 
@@ -17,6 +23,12 @@ A team effort to merge of GPR and LiDAR datasets during SnowEx hackweek 2022.
 - Thomas Van Der Weide [tvanderweide](https://github.com/tvanderweide)
 - Megan Verfaillie [Megan-Verf](https://github.com/Megan-Verf)
 - Seth Vanderwilt [sethv](https://github.com/sethv)
+
+### `Database information`
+SiteData = snowpit information and metadata
+PointData = GPR data, snow probes
+ImageData = LiDAR ASO data
+LayerData = snow pit data (density, depth)
 
 ### `Game Plan`
 1. Find LiDAR area with GPR validation data in western and central Grand Mesa study area and create code to query data from database. 
@@ -38,10 +50,6 @@ List one specific application of this work.
 ### Sample data
 
 If you already have some data to explore, briefly describe it here (size, format, how to access).
-
-### Specific Questions
-
-List the specific tasks you want to accomplish or research questions you want to answer.
 
 ### Existing methods
 
