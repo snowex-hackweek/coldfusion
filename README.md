@@ -1,18 +1,16 @@
 # coldfusion
 Thanks to Lindsey Heagey and Joachim Meyer for the README template!
 
-## Project Summary
+## Project summary of coldfusion
+*coldfusion* is a team effort to merge and validate overlapping GPR and LiDAR datasets using `Python`, `Git/Github` and `JupyterLab` during [SnowEx Hackweek 2022](https://snowex.hackweek.io/intro.html). The [2020 NASA SnowEx campaign](https://nsidc.org/data/snowex) collected a variety of high-spatial resolution snow depth information using GPR, magnaprobe depth measurements, snow pit densities and LiDAR point clouds between January 29th and February 6th 2020 in the Grand Mesa study area. 
 
-### `Coldfusion`
+Depth from LiDAR and density from GPR are compiled and then validated against snowpit density/SWE values to 'close the loop'.
 
-A team effort to merge of GPR and LiDAR datasets during SnowEx hackweek 2022.
+![Flow Chart](contributors/korimooney/GPR_Lidar_Fusion_SNOWEX_Hackweek_2022(3).jpe
 
-$$\rho = \frac{z}{SWE}$
-
-![Overlapping Pit Locations](jovyan@jupyter-korimooney:~/coldfusion/contributors/korimooney/PitOverlap.jpg)
+![Overlapping Pit Locations](contributors/korimooney/PitOverlap.jpg)
 
 ### `Collaborators on this project`
-
 - Curtis Beutler [CBeutler](https://github.com/CBeutler)
 - Peter Marshall [pmarshall24](https://github.com/pmarshall24)
 - Tate Meehan [tatemeehan](https://github.com/tatemeehan)
@@ -35,8 +33,6 @@ ImageData
 LayerData 
 : snow pit data (density, depth)
 
-
-
 ### `Tasks`
 - [x] Find LiDAR area with GPR validation data in western and central Grand Mesa study area and create code to query data from database. 
 Validate using:
@@ -49,10 +45,14 @@ Validate using:
 - [ ] Machine Learning
 - [ ] Look at other sites
 
-### `Next Steps`
+### `Density calcs`
+$\rho = \frac{z}{SWE}$
+eq. 1 density based on ASO snow depth and SWE
+
+### `Next steps`
 Application of Machine Learning to begin looking at other study sites
 
-### `Application Example`
+### `Application example`
 
 List one specific application of this work.
 
