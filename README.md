@@ -7,6 +7,8 @@ Thanks to Lindsey Heagey and Joachim Meyer for the README template!
 
 A team effort to merge of GPR and LiDAR datasets during SnowEx hackweek 2022.
 
+$\rho = \frac{z}{SWE}$$
+
 ![Overlapping Pit Locations](jovyan@jupyter-korimooney:~/coldfusion/contributors/korimooney/PitOverlap.jpg)
 
 ### `Collaborators on this project`
@@ -25,7 +27,7 @@ SiteData
 : snowpit information and metadata
 
 PointData
-: GPR data, snow probes
+: GPR data, snow probes [('depth',),('swe'),('two_way_travel',)]
 
 ImageData
 : LiDAR ASO data
@@ -33,15 +35,19 @@ ImageData
 LayerData 
 : snow pit data (density, depth)
 
-### `Game Plan`
-1. Find LiDAR area with GPR validation data in western and central Grand Mesa study area and create code to query data from database. 
+
+
+### `Tasks`
+- [x] Find LiDAR area with GPR validation data in western and central Grand Mesa study area and create code to query data from database. 
 Validate using:
     - Snow pits (Snow depths & Density)
     - Magnaprobe (snow depth)
     - SNOTEL (snow depth) [Mesa Lakes (622)](https://wcc.sc.egov.usda.gov/nwcc/site?sitenum=622&state=co)
-2. Ensure GPR & LiDAR are on like coordinate systems and co-locate GPR points to LiDAR points
-3. Calculate snow density using dielectric permittivity and wave speed using LiDAR snow depths.
-4. Validate by co-locating in-situ snow density and snow depth
+- [ ] Ensure GPR & LiDAR are on like coordinate systems and co-locate GPR points to LiDAR points
+- [ ] Calculate snow density using dielectric permittivity and wave speed using LiDAR snow depths.
+- [ ] Validate by co-locating in-situ snow density and snow depth
+- [ ] Machine Learning
+- [ ] Look at other sites
 
 ### `Next Steps`
 Application of Machine Learning to begin looking at other study sites
@@ -86,3 +92,17 @@ Notebooks that are considered delivered results for the project should go in her
 ### `scripts`
 Helper utilities that are shared with the team
 
+# Table
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+#Fenced Code Block
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
