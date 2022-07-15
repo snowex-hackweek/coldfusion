@@ -7,7 +7,7 @@ Thanks to Lindsey Heagey and Joachim Meyer for the README template!
 
 A team effort to merge of GPR and LiDAR datasets during SnowEx hackweek 2022.
 
-$\rho = \frac{z}{SWE}$$
+$$\rho = \frac{z}{SWE}$
 
 ![Overlapping Pit Locations](jovyan@jupyter-korimooney:~/coldfusion/contributors/korimooney/PitOverlap.jpg)
 
@@ -92,13 +92,43 @@ Notebooks that are considered delivered results for the project should go in her
 ### `scripts`
 Helper utilities that are shared with the team
 
-# Table
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+# Table of Variables
+| SiteData Columns | PointData Columns | ImageData Columns | LayerData Columns
+| ----------- | ----------- | ----------- | ----------- |
+| air_temp | date | date | bottom_depth |
+| aspect | date_accessed | date accessed | comments |
+| date | doi | description | date |
+| date_accessed | easting | doi | date_accessed |
+| doi | elevation | instrument | depth |
+| easting | equipment | metadata | doi |
+| elevation | geom | observers | easting |
+| geom | instrument | raster | elevation |
+| ground_condition | latitude | registry | flags|
+| ground_roughness | longitude | site_name | geom |
+| ground_vegetation | metadata | time_created | instrument |
+| latitude | northing | time_updated | latitude |
+| longitude | observers | type | longitude |
+| metadata | registry | units | metadata|
+| northing | site_id | ----------- | northing |
+| pit_id | site_name | ----------- | observers |
+| precip | time | ----------- | pit_id |
+| registry | time | ----------- | registry |
+| site_id | time_updated | ----------- | sample_a |
+| site_name | type | ----------- | sample_b |
+| site_notes | units | ----------- | sample_c |
+| sky_cover | utm_zone | ----------- | site_id |
+| slope_angle | value | ----------- | site_name|
+| time | version_number | ----------- | time |
+| time_created | ----------- | ----------- | time_created |
+| time_updated | ----------- | ----------- | time_updated |
+| total_depth | ----------- | ----------- | type |
+| tree_canopy | ----------- | ----------- | units |
+| utm_zone | ----------- | ----------- | utm_zone |
+| vegetation_height | ----------- | ----------- | value |
+| weather_description | ----------- | ----------- | ----------- |
+| wind | ----------- | ----------- | ----------- |
 
-#Fenced Code Block
+# Fenced Code Block
 ```
 {
   "firstName": "John",
